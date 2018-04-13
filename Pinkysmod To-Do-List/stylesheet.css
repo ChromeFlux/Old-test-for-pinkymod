@@ -1,0 +1,68 @@
+/*This makes up the webpage*/
+
+html {
+    z-index: -10;
+    background-color: #070b0f;
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin:auto;
+    width: 95%;
+    height: 100%;
+}
+h1 {
+    font-family: 'Abel', sans-serif;
+    background-color: #182130;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+div.Wrapper {
+    z-index: -5;
+    position: relative;
+    margin: 20px;
+    display: block;
+    background-color:#131923;
+}
+div.Category {
+    z-index: -5;
+    position: relative;
+    font-family: 'Abel', sans-serif;
+    padding: 10px;
+    height: 25px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    display: block;
+    background-color:#293a56;
+}
+p.Content {
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    padding-left: 30px;
+}
+
+/*Loading Bars*/
+div.LoadingBar {
+    margin: -10px;
+    z-index: -1;
+    position: absolute;
+    background-color: #182130;
+    height: 100%;
+    width: 100%;
+}
+#HOTC {
+}
+#GateKeepers {
+}
+#MythrilSlime {
+}
+#Resprites {
+}
+#Redos {
+}
+#NewContent {
+}
