@@ -34,7 +34,6 @@ div.Category {
     display: block;
     font-size: 20px;
     color: white;
-    display: block;
     background-color:#293a56;
 }
 p.Content {
@@ -65,4 +64,21 @@ div.LoadingBar {
 #Redos {
 }
 #NewContent {
+}
+
+/*This is for the Add Category Button*/
+#AddCategory {
+    text-decoration: none;
+    z-index: -5;
+    position: relative;
+    font-family: 'Abel', sans-serif;
+    padding: 10px;
+    height: 25px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 55px;
+    color: #293a56;
+    background-color: #182130;
 }
